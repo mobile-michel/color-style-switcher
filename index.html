@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Elements with no CSS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="position.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" type="text/css" title="default" href="colors-white.css">
+    <link rel="alternate stylesheet" type="text/css" title="alternate" href="colors-dark.css">
+    <link rel="alternate stylesheet" type="text/css" title="positive" href="colors-positive.css">
+    <link rel="alternate stylesheet" type="text/css" title="negative" href="colors-negative.css">
+    <script type="text/javascript" src="styleswitcher.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>lorem ipsum</h1>
+        <h2>DUIS AUTE IRURE DOLOR</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="setActiveStyleSheet('default'); return false;">White page</a></li>
+            <li><a href="#" onclick="setActiveStyleSheet('alternate'); return false;">Dark page</a></li>
+            <li><a href="#" onclick="setActiveStyleSheet('positive'); return false;">Positive design</a></li>
+            <li><a href="#" onclick="setActiveStyleSheet('negative'); return false;">Negative design</a></li>
+        </ul>
+    </nav>
+    <section>
+        <header>
+            <h1>Mollit Anim</h1>
+        </header>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <a href="#">incididunt</a> ut labore
+            et dolore magna aliqua. Ut enim ad minim veniam, quis <a href="#">nostrud</a> exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.</p>
+        <article>
+            <header>
+                <h1>Lorem</h1>
+            </header>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                pariatur.</p>
+        </article>
+        <article>
+            <header>
+                <h1>Ipsum</h1>
+            </header>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.</p>
+        </article>
+    </section>
+    <aside>
+        <article>
+            <header>
+                <h1>Lorem ipsum dolor sit amet</h1>
+                <h3>Duis aute</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ullamco
+                laboris nisi ut aliquip.</p>
+            <p><a href="#">Ut labore...>></a></p>
+        </article>
+        <article>
+            <header>
+                <h1>Expecteur sint occaecat</h1>
+            </header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ullamco.
+            </p>
+            <p><a href="#">Ut labore...>></a></p>
+        </article>
+    </aside>
+    <footer>
+        <p><a href="#">Lorem</a> | <a href="#">Ipsum</a> | <a href="#">Dolor</a> | <a href="#">Sit Amet</a> | <a
+                href="#">Aliquip</a></p>
+    </footer>
+</body>
+
+</html>

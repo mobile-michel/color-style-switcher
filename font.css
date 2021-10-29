@@ -1,0 +1,10 @@
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+body>nav {
+    font-size: 2vw;
+}
+body>header {
+    font-size: 2vw;
+    letter-spacing: 3px;
+}
